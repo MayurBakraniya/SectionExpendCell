@@ -13,6 +13,8 @@
 		0433F326253EED2F005DD795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433F324253EED2F005DD795 /* Main.storyboard */; };
 		0433F328253EED34005DD795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0433F327253EED34005DD795 /* Assets.xcassets */; };
 		0433F32B253EED34005DD795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433F329253EED34005DD795 /* LaunchScreen.storyboard */; };
+		0433F335253EED99005DD795 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433F333253EED99005DD795 /* TableViewCell.swift */; };
+		0433F336253EED99005DD795 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0433F334253EED99005DD795 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0433F327253EED34005DD795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0433F32A253EED34005DD795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0433F32C253EED34005DD795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0433F333253EED99005DD795 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0433F334253EED99005DD795 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				0433F31E253EED2F005DD795 /* AppDelegate.swift */,
 				0433F320253EED2F005DD795 /* SceneDelegate.swift */,
 				0433F322253EED2F005DD795 /* ViewController.swift */,
+				0433F333253EED99005DD795 /* TableViewCell.swift */,
+				0433F334253EED99005DD795 /* TableViewCell.xib */,
 				0433F324253EED2F005DD795 /* Main.storyboard */,
 				0433F327253EED34005DD795 /* Assets.xcassets */,
 				0433F329253EED34005DD795 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0433F32B253EED34005DD795 /* LaunchScreen.storyboard in Resources */,
+				0433F336253EED99005DD795 /* TableViewCell.xib in Resources */,
 				0433F328253EED34005DD795 /* Assets.xcassets in Resources */,
 				0433F326253EED2F005DD795 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0433F323253EED2F005DD795 /* ViewController.swift in Sources */,
+				0433F335253EED99005DD795 /* TableViewCell.swift in Sources */,
 				0433F31F253EED2F005DD795 /* AppDelegate.swift in Sources */,
 				0433F321253EED2F005DD795 /* SceneDelegate.swift in Sources */,
 			);
