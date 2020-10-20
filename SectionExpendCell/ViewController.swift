@@ -19,8 +19,7 @@ class ViewController: UIViewController {
         ["Mayur","Meet","Nitin"],
         ["Android","Mac","iOS","Java"],
     ]
-    
-    let TitleArray = ["Section 1","Section 2","Section 3","Section 4"]
+    let array = ["Section 1","Section 2","Section 3","Section 4","Section 5"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +36,7 @@ class ViewController: UIViewController {
 extension ViewController : UITableViewDelegate,UITableViewDataSource{
 
     func numberOfSections(in tableView: UITableView) -> Int {
-        return self.tableViewData.count
+        return tableViewData.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -56,9 +55,14 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
     
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        
         let sectionButton = UIButton()
-        sectionButton.setTitle(String(section),for: .normal)
+        for sectionVar in array
+        {
+            if sectionVar == array[section] {
+                sectionButton.setTitle(sectionVar,for: .normal)
+            }
+
+        }
         sectionButton.backgroundColor = .lightGray
         sectionButton.tag = section
         sectionButton.addTarget(self, action: #selector(self.hideSection(sender:)), for: .touchUpInside)
